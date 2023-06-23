@@ -1,0 +1,15 @@
+Steps to Implement JWT
+total 8 points are here
+-> Add dependency(io.jsonwebtoken)
+-> Create JWT authenticationEntryPoint implements AuthenticationEntryPoint
+-> create JWTTokenHelper
+-> JwtAuthneticationFilter exteds OnceRequestFilter
+  => Get jwt token from response
+  => Validate token
+  => Get user from token
+  => Load user associated with token
+  => Set spring security
+  => Set spring security
+-> Create JwtAuthResponse
+   Configure JWT in spring secuirytconfig
+   Create login apit to return 
